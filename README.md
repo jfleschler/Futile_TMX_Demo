@@ -4,7 +4,7 @@ Futile_TMX_Demo
 This is a demo project showing how to render TMX files using Futile in Unity3d.
 
 
-Files of Note
+Files of Note  
 -------------
 
 **Scripts/Engine/Level.cs**
@@ -13,7 +13,7 @@ Pass the TMX filename in the constructor and it parses the relevant information.
 The update method of this class sets all tiles that are not visible on the screen to not draw.
 
 
-**Scripts/Player/Player.cs**
+**Scripts/Player/Player.cs**  
 This is the player class that makes use of the "Collision" layer defined in the TMX.
 
 
