@@ -7,7 +7,7 @@ This is a demo project showing how to render TMX files using Futile in Unity3d.
 Files of Note  
 -------------
 
-**Scripts/Engine/Level.cs**
+**Scripts/Engine/Level.cs**  
 Pass the TMX filename in the constructor and it parses the relevant information.  Takes care of splitting up the tilesheet into FSprites and stores them in an internal list for display purposes.  Each tile is assigned a name "tile_" + gid (where gid is the grid id from Tiled.)
 
 The update method of this class sets all tiles that are not visible on the screen to not draw.
